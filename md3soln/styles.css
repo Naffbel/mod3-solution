@@ -1,0 +1,57 @@
+body {
+	font-size: 16px;
+	font-family: Helvettica;
+	background-color: aquamarine;
+	color: solid black;
+}
+
+h1 {
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 0px;
+	text-shadow: 2px 2px 2px #222;
+}
+ .navbar-toggler-icon {
+	border: 2px solid aquamarine;
+}
+div#navbarSupportedContent {
+	background-color: lightpink;
+}
+.nav-item {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	color: forestgreen;
+}
+h2 {
+	text-align: center;
+	color: forestgreen;
+	margin-top: 30px;
+}
+.row1 {
+	background-color: black;
+	color: lightseagreen;
+	margin-top: 50px;
+}
+h3 {
+	text-align: center;
+}
+p {
+	padding: 20px;
+}
+@media (min-width: 992px) {
+	.navbar-nav{
+		visibility: hidden;
+	}
+	#navbarSupportedContent {
+		visibility: hidden;
+	}
+	
+}
+@media (max-width: 991px) {
+	div#main-content {
+		width: 80%;
+	}
+
+
+}
